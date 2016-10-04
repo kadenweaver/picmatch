@@ -15,11 +15,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Do you wish to play again?"
-        android:textSize="30dp"
+        android:textSize="@dimen/pasize"
         android:textColor="@color/white"
         android:background="@color/colorPrimary"
         android:gravity="center"
-        android:layout_marginBottom="20dp"
+        android:layout_marginBottom="@dimen/pamarg"
         />
     <LinearLayout
         android:layout_width="wrap_content"
@@ -30,17 +30,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Yes"
-            android:textSize="20dp"
+            android:textSize="@dimen/margbut"
             android:background="@color/white"
-            android:layout_marginRight="10dp"/>
+            android:layout_marginRight="@dimen/sizebut"/>
         <Button
             android:id="@+id/no"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="No"
-            android:textSize="20dp"
+            android:textSize="@dimen/margbut"
             android:background="@color/white"
-            android:layout_marginRight="10dp"/>
+            android:layout_marginRight="@dimen/margbutri"/>
     </LinearLayout>
 
 </LinearLayout>

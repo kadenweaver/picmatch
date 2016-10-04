@@ -17,9 +17,7 @@ public class GameActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
         TextView counter = (TextView)findViewById(R.id.clicks);
-
         Button menu = (Button)findViewById(R.id.menu);
-
 
         menu.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {

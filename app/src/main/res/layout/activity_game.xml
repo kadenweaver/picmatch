@@ -20,14 +20,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:layout="@layout/fragment_counter"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="@dimen/countpad"/>
         <fragment
             android:id="@+id/mainfragment"
             class="com.example.kpweav13.picmatch.GameFragment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             tools:layout="@layout/fragment_game"
-            android:layout_marginBottom="20dp"/>
+            android:layout_marginBottom="@dimen/gamemarg"/>
 
         <fragment
             android:id="@+id/controlfrag"

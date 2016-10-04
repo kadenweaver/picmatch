@@ -7,4 +7,5 @@
     <string name="continue_button">Continue</string>
     <string name="picture_matching_game">Picture Matching Game</string>
     <string name="clicks">Clicks: 0</string>
+    <string name="menu">Menu</string>
 </resources>

@@ -200,7 +200,7 @@ public class GameFragment extends Fragment {
         // Inflate the layout for this fragment
         View root = inflater.inflate(R.layout.fragment_game, container, false);
         Resources r = getResources();
-       ((GameActivity)getActivity()).setClick(counteram);
+       //((GameActivity)getActivity()).setClick(counteram);
 
 
         for(int i =1; i<17; i++){
@@ -210,13 +210,6 @@ public class GameFragment extends Fragment {
                 ib.setImageDrawable(newmap.get(id));
                 ib.setEnabled(false);
             }
-/*
-
-            Drawable nd = mixpics.get(mixpics.size()-1);
-            map.put(ib, mixpics.remove(mixpics.size()-1));
-            ibtod.put(ib,picIdent.get(nd));
-*/
-
 
 
             ib.setOnClickListener(new View.OnClickListener(){

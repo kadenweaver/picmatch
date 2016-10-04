@@ -23,4 +23,14 @@
     <dimen name="menu_button_margin">4dp</dimen>
     <dimen name="menu_button_padding">10dp</dimen>
     <dimen name="clicks_size">30dp</dimen>
+    <dimen name="countpad">10dp</dimen>
+    <dimen name="gamemarg">20dp</dimen>
+    <dimen name="titlepad">30dp</dimen>
+    <dimen name="titlesize">100dp</dimen>
+    <dimen name="butmarg">10dp</dimen>
+    <dimen name="pasize">30dp</dimen>
+    <dimen name="pamarg">20dp</dimen>
+    <dimen name="sizebut">10dp</dimen>
+    <dimen name="margbut">20dp</dimen>
+    <dimen name="margbutri">10dp</dimen>
 </resources>
