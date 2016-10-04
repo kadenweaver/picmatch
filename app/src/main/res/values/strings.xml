@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PicMatch</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="play">New Game</string>
+    <string name="continue_button">Continue</string>
+    <string name="picture_matching_game">Picture Matching Game</string>
+    <string name="clicks">Clicks: 0</string>
+</resources>
